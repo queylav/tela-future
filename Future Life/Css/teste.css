@@ -1,0 +1,429 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: white;
+    
+}
+
+.text2{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #004AAD;
+    height: 10vh;
+    width: 135rem;
+    top: 70rem;
+}
+
+.textmenor{
+    position: relative;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #23232e;
+    height: 60vh;
+    width: 118rem;
+    left: 0;
+    top: 0;
+}
+
+.central{
+    display: flex;   
+    height: 450px;
+    width: 250svh;
+    justify-content: center;
+    position: static;
+    top: 50px;
+    left: 600px;
+    
+
+}
+
+.banner{
+    width: auto;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.logo{
+    margin: 0;
+    display: flex;   
+    height: 185px;
+
+}
+
+.roleta-future{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 5vh;
+}
+
+.roleta1{
+    font-size: 22px;
+    margin: 30px;
+    color: #35e8eb;
+}
+
+.roleta2{
+    font-size: 22px;
+    margin: 35px;
+    color: b;
+}
+
+header{
+    background: #23232e;
+    color: aliceblue;
+    background: url();
+}
+footer{
+    background: aliceblue;
+    bottom: #23232e;
+}
+   
+a {
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    align-items: end;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black;
+    height: 9vh;
+    display: flex;
+    
+}
+
+main {
+    background: url("Fundo.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+     font-size: 12px;
+     height: 10px;
+     width: -15px;
+     justify-content: space-between;
+     align-items: center;
+     margin: 5px;
+     padding: 0;
+}
+
+.nav-list li {
+    letter-spacing: 4px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+display: none;
+cursor: pointer;
+
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: white;
+    margin: 8px;
+}
+
+.main-button{
+    font-size: 5px;
+    color: white;
+    border: none;
+    width: 1rem;
+    color: white;
+    font-weight: 150;
+    font-size: 18px;
+    background-color: #3ECED0;
+    width: 5rem;
+    height: 2rem;
+    border-style:solid;
+    margin-left: 40px;
+    margin: 30px;    
+    
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+
+
+.header-nav-a{
+    padding-top: 0.8rem;
+}
+@media (max-width: 1250px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-list.active {
+        transform: translateX(0);
+    }
+}
+
+.text2{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #004AAD;
+    height: 5vh;
+    width: 87rem;
+    top: 40rem;
+    flex-direction: column;
+
+    
+}
+
+.central{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.projeto{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.construir{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.capactação{
+    display: flex;   
+    height: 250px;
+    width: 135vh;
+    justify-content: center;
+    position: static;
+}
+
+.saude{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.vida{
+    display: flex;   
+    height: 250px;
+    width: 140vh;
+    justify-content: center;
+    position: static;
+}
+
+.distribuicao{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.arrecadacao{
+    display: flex;   
+    height: 250px;
+    width: 130vh;
+    justify-content: center;
+    position: static;
+}
+
+.voluntario{
+    display: flex;   
+    height: 300px;
+    width: 150vh;
+    justify-content: center;
+    position: static;
+
+}
+
+
+
+.banner{
+    width: 90rem;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.logo{
+    margin: 0;
+    display: flex;   
+    height: 185px;
+
+}
+
+.roleta-future{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 5vh;
+}
+
+.roleta1{
+    font-size: 15px;
+    margin: 30px;
+    color: #35e8eb;
+}
+
+.roleta2{
+    font-size: 15px;
+    margin: 35px;
+    color: b;
+}
+
+header{
+    background: #23232e;
+    color: aliceblue;
+    background: url();
+}
+footer{
+    background: aliceblue;
+    bottom: #23232e;
+}
+   
+a {
+    color: aqua;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 13px;
+    align-items: end;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black;
+    height: 9vh;
+    display: flex;
+    
+}
+
+main {
+    background: url("Fundo.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+
+.main-button{
+    font-size: 4px;
+    color: white;
+    border: none;
+    width: 1rem;
+    color: white;
+    font-weight: 120px;
+    font-size: 13px;
+    background-color: #3ECED0;
+    width: 4rem;
+    height: 2rem;
+    border-style:solid;
+    margin-left: 40px;
+    margin: 30px;    
+    
+    border: none;
+    border-radius: 4rem;
+    cursor: pointer;
+}
+
+.voluntario-button{
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: 1rem;
+    color: white;
+    font-weight: 120px;
+    font-size: 20px;
+    background-color: #008037;
+    width: 15rem;
+    height: 200rem;
+    border-style:solid;
+    margin-left: 40px;
+    margin: 20px;    
+    
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.header-nav-a{
+    padding-top: 0.8rem;
+}
